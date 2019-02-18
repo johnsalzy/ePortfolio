@@ -8,7 +8,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "John Salzman - ePortfolio",
     "keywords": [
         "css",
         "sass",
@@ -17,19 +17,14 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "John Salzman"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/johnsalzy/ePortfolio"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.7.2",
