@@ -1,9 +1,12 @@
 {
+    "homepage": "https://johnsalzy.github.io/ePortfolio/",
     "title": "Resume",
     "name": "startbootstrap-resume",
     "version": "5.0.4",
     "scripts": {
-        "start": "gulp watch"
+        "start": "gulp watch",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
@@ -37,6 +40,7 @@
     "devDependencies": {
         "browser-sync": "2.26.3",
         "del": "^3.0.0",
+        "gh-pages": "^2.0.1",
         "gulp": "4.0.0",
         "gulp-autoprefixer": "6.0.0",
         "gulp-clean-css": "4.0.0",
