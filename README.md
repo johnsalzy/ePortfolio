@@ -1,3 +1,3 @@
 # John Salzman - ePortfolio
 
-## A ePortfolio that tells you about me.
+## Project hosted through GitHub For more info on how see a react pages [example](https://github.com/gitname/react-gh-pages)
