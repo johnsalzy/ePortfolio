@@ -67,6 +67,9 @@
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#involvement">Involvement</a>
         </li>
         <li class="nav-item">
@@ -91,7 +94,7 @@
           <a href="mailto:name@email.com">salzmajm@mail.uc.edu</a>
         </div>
         <p class="lead mb-5">I am a computer engineering and math minor student studying at the University of Cincinnati.
-            My professional interests include automation, mobile app creation, and backend development.
+            My professional interests include mobile app creation, automation, and backend development.
             In my free time I enjoy rock climbing, woodworking, and cooking.
         </p>
         <div class="social-icons">
@@ -100,6 +103,9 @@
           </a>
           <a href="https://github.com/johnsalzy">
             <i class="fab fa-github"></i>
+          </a>
+          <a href="https://stackoverflow.com/users/9626357/john-s">
+            <i class="fab fa-stack-overflow"></i>
           </a>
           <a style="font-size:11px;" href="https://www.linkedin.com/in/john-salzman-3473a513b/detail/treasury/summary/?entityUrn=urn%3Ali%3Afs_treasuryMedia%3A(ACoAACINIacBwDFdS9IvBoXegDIam3W4dPBnTDE%2C1554777007440)&section=summary&treasuryCount=1">
             Resume
@@ -117,9 +123,9 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0"> Strategic Student Program Co-op</h3>
+            <h3 class="mb-0">Software Development Co-op</h3>
             <div class="subheading mb-3">Siemens PLM Software</div>
-            <b>Projects:</b><br>
+            <u><h4>Division: Lifecycle Collaboration Software (LCS)</h4></u><br>
             <b>Code Coverage Web Dashboard</b>
             <ul>
                 <li>Create a user interface for developers to track code coverage metrics</li>
@@ -132,6 +138,9 @@
                 <li>Create a UI for developers to see their associated risks and coverage</li>
                 <li>Leverage a Neo4j database to track and store user metrics</li>
             </ul>
+            <br /><br />
+            
+            <u><h4>Division: Simulation and Test Tools (STS)</h4></u><br>
             <b>NX Software Development</b>
             <ul>
                 <li>Work in a large software base to identify, locate, and update bugs</li>
@@ -197,6 +206,13 @@
                 <li>Electronics 1 & 2 </li>
                 <li>Computer Orginization & Architecture </li>
             </ul>
+            <b>Senior Capstone - Nimble - An online IDE for the virtual classroom</b>
+            <ul>
+                <li>Allows edjucators to give programming assignments and feedback</li>
+                <li>Enables students to work together in real time</li>
+                <li>Auto create a setup free programming IDE in browser</li>
+            </ul>
+            
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Expected May 2021</span>
@@ -206,7 +222,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">Warren County Career Technology Center</h3>
-            <div class="subheading mb-3">Information Technology Block Program</div>
+            <div class="subheading mb-3">Welding School</div>
                 <p>ARC Welding I course</p>
             </ul>
           </div>
@@ -220,9 +236,9 @@
 
     <hr class="m-0">
     
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="involvement">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
-        <h2 class="mb-5">Projects & Involvement</h2>
+        <h2 class="mb-5">Projects</h2>
         <ol>
             <li><a href="https://github.com/johnsalzy/HUECO-UI">Hueco</a></li>
                 <ul>
@@ -232,8 +248,36 @@
                     <li>
                         Houses a social media based system to share climbed routes, photos, and videos
                     </li>
+                    <li>
+                        Uses push notifications to alert users of interations on their posts
+                    </li>
+                    <li>
+                        See more project details on <a href="https://github.com/johnsalzy/HUECO-UI">GitHub</a>
+                    </li>
                 </ul>
-            <li>UC Mountaineering Club</li>
+                <div style="padding-left:40px">
+                    <video height="400" controls>
+                      <source src="Hueco.mp4" type="video/mp4">
+                      Your browser does not support HTML video.
+                    </video>
+                </div>
+            <li>UC Mountaineering Club App</li>
+                <ul>
+                    <li>Allows users to view, checkout, and search our gear cave</li>
+                    <li>Lets students sign up for upcoming trips</li>
+                    <li>Gives ability for users to fill out forms & waivers</li>
+                </ul>
+        </ol>
+        <p>&#9734 See my most recent work through <a href="https://github.com/johnsalzy">GitHub</a></p>
+      </div>
+    </section>
+    
+    <hr class="m-0">
+    
+    <section class="p-3 p-lg-5 d-flex align-items-center" id="involvement">
+      <div class="w-100">
+        <h2 class="mb-5">Involvement</h2>
+        <ol>
             <li>RefugeUC - Treasurer</li>
                 <ul>
                     <li>
@@ -244,11 +288,10 @@
                 <ul>
                     <li>UC Fit for Life is a volunteer orginization dedicated to giving children at a local Boys and Girl's Club a structured opportunity to get exercise and work towards better lifestyle choices.</li>
                 </ul>
+            <li>UC Mountaineering Club</li>
         </ol>
-        <p>&#9734 See my most recent work through <a href="https://github.com/johnsalzy">GitHub</a></p>
       </div>
     </section>
-    
     
     <hr class="m-0">
       <!-- Skills -->
@@ -256,48 +299,63 @@
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-          <li style="font-size:16px;">
-            Neo4j Graph Database
-          </li>
-          <li style="font-size:16px;">
-            PostgreSQL Database
-          </li>
-          <li style="font-size:16px;">
-            SQL Database
-          </li>
-          <li style="font-size:16px;">
-            React Native
-          </li>
-          <li style="font-size:16px;">
-            C++
-          </li>
-        </ul>
-
+        <div class="subheading mb-3">Programming Languages &amp; Tools
+            <ul class="list-inline dev-icons">
+              <li class="list-inline-item">
+                <i class="fab fa-html5"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-css3-alt"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-js-square"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-angular"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-react"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-node-js"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fab fa-python"></i>
+              <li class="list-inline-item">
+                <i class="fab fa-npm"></i>
+              </li>
+              <li class="list-inline-item">
+                C++
+              </li>
+            </ul>
+        </div>
+        <div class="subheading mb-3">Databases
+            <ol>
+              <li style="font-size:16px;">
+                Neo4j Graph Database
+              </li>
+              <li style="font-size:16px;">
+                PostgreSQL Database
+              </li>
+              <li style="font-size:16px;">
+                SQL Database
+              </li>
+            </ol>
+        </div>
+        <div class="subheading mb-3">Frameworks
+            <ol>
+              <li style="font-size:16px;">
+                React Native / Expo
+              </li>
+              <li style="font-size:16px;">
+                Django
+              </li>
+              <li style="font-size:16px;">
+                Flask
+              </li>
+            </ol>
+        </div>
+        
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
@@ -314,13 +372,13 @@
     
     
      <!-- Awards -->
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <section class="p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
         <h2 class="mb-5">Awards &amp; Certifications</h2>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Neo4j Certified Professional
+            Neo4j Graph Database - Certified Professional
           </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
